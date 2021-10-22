@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "SilentMike",
+  "classifications": [ "CleanArchitecture" ],
+  "identity": "SilentMike.CleanArchitecture",
+  "name": "SilentMike: clean architecture",
+  "shortName": "cleanArchitecture",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ "**/.vs/**", "**/.git/**"  ]
+        }
+      ]
+    }
+  ],
+  "sourceName": "SilentMike",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
